@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #09090b;
+  --border--color: #27272a;
+  --primary-color: #fff;
+  --accent-color: #01fc87;
+  --red-color: #d93036;
+  --orange: #ffcc00;
+  --font-family: "Figtree", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* max-width when in mobile */
+@media (max-width: 375px) {
+  body {
+    min-width: 375px;
+    overflow-x: auto;
+  }
+}
+
+.container {
+  border: 2px solid var(--border--color);
+  padding: 4rem 4rem;
+  border-radius: 50px;
+}
+
+#timer {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  #timer {
+    font-size: 4rem;
+  }
+  .container {
+    padding: 4rem 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#startStopBtn {
+  background: var(--accent-color);
+  padding: 0.675rem 1rem;
+}
+
+#pause {
+  background: var(--orange);
+}
+
+#resetBtn {
+  background: var(--red-color);
+  padding: 0.675rem 1rem;
+}
+
+#play {
+  background: var(--accent-color);
+}
+
+#pause {
+  background: var(--orange);
+}
+
+#reset {
+  background: var(--red-color);
+}
