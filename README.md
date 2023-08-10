@@ -1,4 +1,4 @@
-# Stopwatch
+# Stopwatch | JavaScript
 This repository contains a simple yet functional digital stopwatch that allows users to start, pause, and reset the timer. With an intuitive user interface, the stopwatch enhances user experience and provides an easy-to-use time-tracking tool.
 
 ## Features
@@ -6,6 +6,9 @@ This repository contains a simple yet functional digital stopwatch that allows u
 - Reset Timer: Users can reset the timer to zero, clearing all recorded time.
 - Time Formatting: The timer displays hours, minutes, and seconds in a user-friendly format (HH:MM:SS).
 - Responsive Design: The stopwatch's design is responsive, making it accessible and usable across various devices.
+
+ ## Demo
+Check out the live demo of the Insure Landing Page [here](https://stopwatch-javascript.vercel.app/)
 
 ## Technologies Used
 - HTML, CSS: The core structure and styling of the stopwatch interface are built using HTML and CSS.
